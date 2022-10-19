@@ -39,3 +39,21 @@ mv /tmp/passwd.bak /etc/passwd
 Exploit adopted by Christian "FireFart" Mehlmauer
 
 https://firefart.at
+
+## Compile for Debian Squeeze 32
+* use a docker target os to compile the exploit 
+```
+docker run --platform linux/386 -it -v $(pwd):/tmp debian/eol:squeeze
+root@07ccd56551fe:/# apt-get update
+...
+root@07ccd56551fe:/# apt-get install gcc
+....
+root@07ccd56551fe:/# cd /tmp
+root@07ccd56551fe:/tmp# head -n 20 dirty.c
+...
+root@07ccd56551fe:/tmp# head -n 20 coverhed.c
+...
+```
+* follow the compilation instructions
+
+
