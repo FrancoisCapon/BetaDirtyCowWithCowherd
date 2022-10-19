@@ -14,10 +14,10 @@
 //   https://github.com/dirtycow/dirtycow.github.io/blob/master/pokemon.c
 //
 // Compile with:
-//   gcc -pthread dirty.c -o dirty -lcrypt
+//   gcc -pthread coverhed.c -o coverhed -lcrypt
 //
 // Then run the newly create binary by either doing:
-//   "./dirty" or "./dirty my-new-password"
+//   "./coverhed" or "./coverhed my-new-password"
 //
 // Afterwards, you can either "su firefart" or "ssh firefart@..."
 //
