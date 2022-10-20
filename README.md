@@ -1,4 +1,4 @@
-# DirtyCow and Cowverherd
+# DirtyCow and Cowherd
 
 This exploit uses the pokemon exploit of the dirtycow vulnerability as a base and automatically generates a new passwd line.
 The user will be prompted for the new password when the binary is run.
@@ -51,7 +51,7 @@ root@07ccd56551fe:/# apt-get install gcc
 root@07ccd56551fe:/# cd /tmp
 root@07ccd56551fe:/tmp# head -n 20 dirty.c
 ...
-root@07ccd56551fe:/tmp# head -n 20 cowverherd.c
+root@07ccd56551fe:/tmp# head -n 20 cowherd.c
 ...
 ```
 * Follow the compilation instructions
