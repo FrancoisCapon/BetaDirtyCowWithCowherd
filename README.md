@@ -57,7 +57,7 @@ root@07ccd56551fe:/tmp# head -n 20 cowherd.c
 ...
 ```
 * Follow the compilation instructions
-* Use it
+* Use it as the original
 
 
 # Turtle
@@ -74,7 +74,7 @@ root@07ccd56551fe:/# apt-get install gcc
 root@07ccd56551fe:/# cd /tmp
 root@07ccd56551fe:/# gcc -pthread main.c -o turtle
 ```
-* Usage
+## Use
 
 ```
 $ ./turtle 
