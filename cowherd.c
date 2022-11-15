@@ -14,7 +14,7 @@
 //   https://github.com/dirtycow/dirtycow.github.io/blob/master/pokemon.c
 //
 // Compile with:
-//   gcc -pthread coverhed.c -o coverhed -lcrypt
+//   gcc -pthread cowherd.c -o cowherd -lcrypt
 //
 // Then run the newly create binary by either doing:
 //   "./coverhed" or "./coverhed my-new-password"
