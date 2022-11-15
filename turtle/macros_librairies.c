@@ -1,0 +1,13 @@
+#include <stdlib.h>
+#include <stdio.h>
+#include <unistd.h>
+#include <fcntl.h>
+#include <sys/types.h>
+#include <sys/stat.h>
+#include <sys/mman.h>
+#include <sys/wait.h>
+#include <pthread.h>
+#include <sys/ptrace.h>
+#include <string.h>
+#include <sys/syscall.h>
+#include <signal.h>
