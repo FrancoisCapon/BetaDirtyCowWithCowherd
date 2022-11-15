@@ -1,4 +1,4 @@
-# DirtyCow and Cowherd
+# DirtyCow Origin
 
 This exploit uses the pokemon exploit of the dirtycow vulnerability as a base and automatically generates a new passwd line.
 The user will be prompted for the new password when the binary is run.
@@ -39,6 +39,8 @@ mv /tmp/passwd.bak /etc/passwd
 Exploit adopted by Christian "FireFart" Mehlmauer
 
 https://firefart.at
+
+# DirtyCow with Cowherd
 
 ## Compile for Debian Squeeze 32
 * Use a docker target os to compile the exploit 
