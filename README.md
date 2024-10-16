@@ -62,7 +62,17 @@ root@07ccd56551fe:/tmp# head -n 20 cowherd.c
 * Use it as the original
 
 
-# Turtle :rabbit: :turtle: 
+# Turtle :rabbit: :turtle:
+
+This is a completely rewriting that "better" exploit of the dirty cow flaw by
+1. optimizing the substitution algorithm
+    * works by chunks not single character
+    * watches each chunk and stop trying if the chunk's substitution is done
+1. not stressing the scheduler so non atomic operations has better chance to appear
+
+Which results that the exploit is
+* **stealthy** because it don't stress the machine beacuse (not overload)
+* **very fast**, the execution time is some `µs` versus some `seconds`
 
 ## Compile for Debian Wheezy 64
 
