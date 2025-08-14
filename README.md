@@ -1,3 +1,6 @@
+> [!IMPORTANT]
+> This repository has been archived because the final version, [“Turtwig Rides Dirty COW (CVE-2016-5195)”](https://github.com/FrancoisCapon/TurtwigRidesDirtyCOW) is now available.
+
 # DirtyCow Origin :cow:
 
 This exploit uses the pokemon exploit of the dirtycow vulnerability as a base and automatically generates a new passwd line.
